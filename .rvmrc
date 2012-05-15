@@ -1,0 +1,2 @@
+rvm --create use jruby-1.6.7@blocked_threads
+export JRUBY_OPTS="$JRUBY_OPTS --1.9"
