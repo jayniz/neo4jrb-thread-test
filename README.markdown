@@ -31,3 +31,11 @@ To see things break, let's use the `Node.load` method (without the `_`, hence lo
     ....................................................................................    Concurrency 10, actions total: 84412, actions/min: 50517
 
 The screenshots were not made exactly as shown - each Thread accessed it's own node, not all threads the same one.
+
+Try for yourself
+================
+
+    git clone https://github.com/jayniz/neo4jrb-thread-test.git
+    source .rvmrc
+    bundle
+    ./test_runner.rb
